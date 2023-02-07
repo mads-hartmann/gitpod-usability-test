@@ -6,4 +6,5 @@ tasks:
     openIn: right
 ports:
   - port: 3000
+    onOpen: open-browser
     visibility: public
