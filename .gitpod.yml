@@ -1,0 +1,9 @@
+tasks:
+  - name: "Webserver"
+    command: |
+      echo "Starting python webserver"
+      python3 -m http.server 3000
+    openIn: right
+ports:
+  - port: 3000
+    visibility: public
